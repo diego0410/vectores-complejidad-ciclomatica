@@ -27,7 +27,7 @@ public class Vectores {
          
          }
      public static void llenar(int [] A, int [] B/*, int dato*/){
-             int i,j,dato,dato2;
+             int i,j,dato;
              i=0;
              j=0;
              
