@@ -9,7 +9,11 @@ import javax.swing.*;
 
 /**
  *
- * @author 12
+ * Juan Camilo Hernandez
+ * Programa que llena dos vectores, se ingresan numeros de manera aleatoria por parte del usuario, 
+ * si el numero es mayor que 20 va al vector A, pero si el numero es menor que 20 va al vector B, 
+ * el primer arreglo que se llene se debe  imprimir y se debe continuar llenando el arreglo que 
+ * aún está incompleto y luego imprimirlo. 
  */
 public class Vectores {
 
@@ -18,15 +22,15 @@ public class Vectores {
      */
     public static void main(String[] args) {
         //int dato = 0;
-        int A[]= new int[10];
-        int B[]= new int[10];
+        int A[]= new int[10];//En este arreglo deben ir los numeros mayores a 20
+        int B[]= new int[10];//En este arreglo deben ir los numeros menores a 20 
          
-        llenar(A,B);
+        llenar(A,B); // se llama el metodo llenar para ingresar los valores a los vectores A y B
         
              
          
          }
-     public static void llenar(int [] A, int [] B/*, int dato*/){
+     public static void llenar(int [] A, int [] B){ //Metodo para llenar los arreglos 
              int i,j,dato;
              i=0;
              j=0;
@@ -34,7 +38,7 @@ public class Vectores {
                          
              
                 
-                   while((i<10)||(j<10)) {                    
+                   while((i<10)||(j<10)) { //se usa i y j para manejar como se van llenando los arreglos de forma independiente                   
                        
                         dato=Integer.parseInt(JOptionPane.showInputDialog(null, "ingrese un dato") );
                          if(dato>20 && i<10){
@@ -62,7 +66,7 @@ public class Vectores {
              
       }
      
-     public static void imprimir(int A[]){
+     public static void imprimir(int A[]){//metodo para imprimir arreglo
              int i;
              i=0;
              String cadena="";
