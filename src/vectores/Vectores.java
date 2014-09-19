@@ -64,13 +64,13 @@ public class Vectores {
              
       }
      
-     public static void imprimir(int A[]){//metodo para imprimir arreglo
+     public static void imprimir(int vecresultado[]){//metodo para imprimir arreglo
              int i;
              i=0;
              String cadena="";
                           
             for ( i = 0;i < 10;i++) {
-                cadena=" "+" "+cadena+A[i]+" "+" ";
+                cadena=" "+" "+cadena+vecresultado[i]+" "+" ";
             }
             JOptionPane.showMessageDialog(null,cadena);            
        }
