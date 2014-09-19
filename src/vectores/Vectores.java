@@ -9,11 +9,9 @@ import javax.swing.*;
 
 /**
  *
- * Juan Camilo Hernandez
- * Programa que llena dos vectores, se ingresan numeros de manera aleatoria por parte del usuario, 
- * si el numero es mayor que 20 va al vector A, pero si el numero es menor que 20 va al vector B, 
- * el primer arreglo que se llene se debe  imprimir y se debe continuar llenando el arreglo que 
- * aún está incompleto y luego imprimirlo. 
+ * Programa creado po Juan Camilo Hernandez y utilizado por Diego Vanegas para la actividad
+ * de complejidad ciclomatica.
+ 
  */
 public class Vectores {
 
